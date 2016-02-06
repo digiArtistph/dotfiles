@@ -1,0 +1,9 @@
+[user]
+	name = Kenneth 'digiArtist_ph' P. Vallejos
+	email = kenn_vall@yahoo.com
+[alias]
+	st = status
+	br = branch
+	co = checkout
+[push]
+	default = simple

@@ -1,0 +1,1 @@
+/home/kenn/.local/share/omf/themes/bobthefish/fish_prompt.fish
