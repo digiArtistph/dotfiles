@@ -1,0 +1,9 @@
+nnoremap pwd :pwd<CR>
+nnoremap lcd :lcd<space>
+nnoremap cd :cd<space>
+
+nnoremap mru :bro old<CR>
+nnoremap bd :bd<cr>
+
+" comments out a line
+map <leader>c <C-_><C-_>

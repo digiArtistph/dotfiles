@@ -1,0 +1,21 @@
+# $.ajax call
+snippet ajax
+	$.({
+		type: "${1:post}",
+		url: "${2:MNC.site_url}",
+		success: function(data) {
+			${4:console.log(data);}
+		}
+	});${5:}
+#data
+snippet ajaxD
+	data: {${1:fld}:${2:fldData}}${3:,}
+# $.ajax dataType
+snippet ajaxDT
+	dataType: "${1:json}"${2:,}
+# console.log
+snippet console
+	console.log(${1:"Your message here"});
+# stringify
+snippet stringify
+	JSON.stringify(${1:data})${2:}
