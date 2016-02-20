@@ -2,4 +2,11 @@ snippet func
 	${1:public }function ${2:FunctionName}(${3}) {
 		${4:// code...}
 	}
-
+snippet cihelp
+	$this->load->helper("${1:mnc_utility}");${2:}
+snippet hmodules
+	Modules::run("${1:controller/method}"${2:, $data});${3:}
+snippet calld
+	call_debug($${1:data});${2:}
+snippet onwat
+	on_watch("${1:Hello World!}");${2:}

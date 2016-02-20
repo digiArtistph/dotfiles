@@ -13,3 +13,12 @@ nnoremap tm :tabm<space>
 " MRU
 "nnoremap mru :bro old<CR>
 nnoremap mru :MRU<CR> 
+
+
+" find and replace
+nnoremap <leader>ff :%s/\%V
+
+nnoremap <leader>rs :call ReloadAllSnippets()<CR>
+
+nnoremap <leader>) f)
+nnoremap <leader>( F)
