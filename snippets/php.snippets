@@ -10,3 +10,51 @@ snippet calld
 	call_debug($${1:data});${2:}
 snippet onwat
 	on_watch("${1:Hello World!}");${2:}
+snippet expd
+	explode("${1: }", $${2:data});${3:}
+snippet impl
+	implode("${1:,}", $${2:data});${3:}
+snippet jsone
+	json_encode($${1:data});${2:}
+snippet jsond
+	json_decode($${1:data});${2:}
+snippet inarr
+	in_array("${1:}"s $${2:data})${3:}
+snippet arrsr
+	array_search("${1:}", $${2:data});${3:}
+snippet cilhelper
+	$this->load->helper("${1:session_aid}");${2:}
+snippet this
+	$this->${0}
+snippet strq
+	$strQry${0}
+snippet >rs
+	->result()${0}
+snippet dbvar
+	"${1:name}" => array(
+		"type" => "VARCHAR",
+		"constraint" => "${2:255}",
+		"null" => ${3:TRUE}
+	)${4:}
+snippet dbint
+	"${1:id}" => array(
+		"type" => "INT",
+		"constraint" => ${2:11},
+		"unsigned" => TRUE
+	)${3:}
+snippet dbtext
+	"${1:desc}" => array(
+		"type" => "TEXT",
+		"null" => sRUE
+	)${2:}
+snippet dbcur
+	"${1:price}" => array(
+		"type" => "decimal",
+		"constraint" => "8,2",
+		"default" => "0.00"
+	)${2:}
+snippet dbdate
+	"${1:created}" => array(
+		"type" => "date/time",
+		"default" => "timestamp"
+	)${2:}

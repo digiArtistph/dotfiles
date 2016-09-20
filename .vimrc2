@@ -22,3 +22,29 @@ nnoremap <leader>rs :call ReloadAllSnippets()<CR>
 
 nnoremap <leader>) f)
 nnoremap <leader>( F)
+
+nnoremap <leader>"" bi"<ESC>ea"<ESC>
+
+" saveas
+" edit/new
+
+nnoremap <leader>fd ^1f{v%zf
+nnoremap <leader>df za
+
+" executes terminal commands
+nnoremap <leader>x :!
+
+nnoremap <space> za
+vnoremap <space> za
+
+" folds
+nnoremap<leader>ef V%zf
+
+" toggle highlight seacrch
+:noremap <F4> :set hlsearch! hlsearch?<CR>
+
+" Save work in all tabs and quit
+nnoremap <leader>ww :wqa<CR>
+
+" last closed buffer
+nnoremap <leader>b :tabnew#<CR>
