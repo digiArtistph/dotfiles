@@ -1,0 +1,29 @@
+#!/bin/bash
+
+NAME=$1
+TYPE='service'
+TYPEX='srv'
+SRVPATH=js/services/
+EXT='js'
+
+TEMPLATE=$( cat <<EndoL
+/**
+ * Description goes here
+ * @return null
+ * @author Kenneth 'digiArtist_ph' P. Vallejos
+ * @since 
+ *
+ */
+angular.module('${NAME}.${TYPE}', [])
+
+.factory('${NAME^}${TYPEX^}', function() {
+   return {
+      name: '${NAME}'
+   };
+});
+EndoL
+)
+
+# prints to file
+echo "${TEMPLATE}" > $SRVPATH${NAME}.${TYPE}.${EXT}
+
