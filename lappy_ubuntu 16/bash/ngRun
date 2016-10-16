@@ -1,0 +1,24 @@
+#!/bin/bash
+
+TYPE='run'
+RUNPATH=js/
+EXT='js'
+
+TEMPLATE=$(cat <<EndoL
+angular.module('ngApp')
+
+.run(['\$rootScope', function(\$rootScope) {
+
+   // view's events
+   // \$rootScope.\$on('$viewContentLoading', function(evt, vwConfig) {
+   //    console.log('the view is loading...');
+   //    console.log(evt);
+   //    console.log(vwConfig.targetView);
+   // });
+   
+}]);
+EndoL
+)
+
+# prints to file
+echo "${TEMPLATE}" > $RUNPATH${TYPE}.${EXT}
