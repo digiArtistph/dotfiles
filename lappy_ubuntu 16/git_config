@@ -1,0 +1,20 @@
+alias.hist=log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+alias.st=status
+alias.co=checkout
+alias.br=branch
+user.name=Kenneth 'digiArtist_ph' P. Vallejos
+user.email=kenn@pennnsar.com
+push.default=simple
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=git@git.pennnsar.company:pensar/officescape_rest.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.rest_api.remote=origin
+branch.rest_api.merge=refs/heads/rest_api
+remote.bitbucket.url=git@bitbucket.org:kenn_pennnsar/rest_api.git
+remote.bitbucket.fetch=+refs/heads/*:refs/remotes/bitbucket/*
+alias.pushall=!git push origin && git push bitbucket
+branch.newusertbl.remote=origin
+branch.newusertbl.merge=refs/heads/newusertbl
