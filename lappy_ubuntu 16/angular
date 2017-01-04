@@ -53,3 +53,5 @@ https://www.youtube.com/watch?v=nURh9LsyUhQ
 ==== ui-route nested views and nested resolved ====
 https://medium.com/opinionated-angularjs/advanced-routing-and-resolves-a2fcbf874a1c#.jpst9k5t8
 http://www.jvandemo.com/how-to-resolve-angularjs-resources-with-ui-router/
+==== spinner while ui-router resolve ====
+http://stackoverflow.com/questions/24200909/apply-loading-spinner-during-ui-router-resolve
