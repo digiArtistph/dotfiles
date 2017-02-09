@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "———————————————— STARTED ————————————————"
+for file in *.*
+do
+   mv -v "$file" "${file/$1/$2}"
+done
+echo "———————————————— ✔✔✔ RENAMED Every '$1' word in a filename in the PWD! ✔✔✔︎ ————————————————"
