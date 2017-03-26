@@ -1,0 +1,13 @@
+@media only screen and (max-device-width: 750px) {
+   .easy-autocomplete,
+   .easy-autocomplete input,
+   .easy-autocomplete-container {
+      width: 99% !important;
+   }
+}
+@media only screen and (max-device-width: 320px) {
+   .easy-autocomplete input,
+   .easy-autocomplete-container {
+      width: 99% !important;
+   }
+}
